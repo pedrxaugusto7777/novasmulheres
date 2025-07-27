@@ -1,0 +1,57 @@
+/* Exemplo de CSS básico para um index.html padrão */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #0078d7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #0078d7;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+h1, h2, h3 {
+    color: #0078d7;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
